@@ -83,7 +83,7 @@ print('CLONING repo')
 tmpdir = mkdtemp()
 encoded_api_key = quote_plus(api_key)
 #algo_repo = 'https://{}:{}@git.algorithmia.com/git/{}.git'.format(username, encoded_api_key, algo_full_name)
-algo_repo = 'https://{}:{}git.rbs.productionize.ai/git/{}.git'.format(username, encoded_api_key, algo_full_name)
+algo_repo = 'https://{}:{}@git.rbs.productionize.ai/git/{}.git'.format(username, encoded_api_key, algo_full_name)
 cloned_repo = Repo.clone_from(algo_repo, tmpdir)
 
 # add algo.py (updating as needed) and requirements.txt into repo
