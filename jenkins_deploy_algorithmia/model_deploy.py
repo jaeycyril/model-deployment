@@ -65,12 +65,12 @@ algo = client.algo(algo_full_name)
 print("This is the data path")
 print(data_path)
 print("This is the algo fullname")
-print(algo_full_name")
+print(algo_full_name)
 
 # create Hosted Data collection
 print('CREATING '+data_path)
-if not client.dir(data_path).exists():
-    client.dir(data_path).create()
+#if not client.dir(data_path).exists():
+#    client.dir(data_path).create()
 
 # upload the model file
 print('UPLOADING model to '+data_path+'/'+MODEL_FILE)
