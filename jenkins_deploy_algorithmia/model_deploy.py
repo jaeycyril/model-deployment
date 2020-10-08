@@ -13,7 +13,7 @@ from time import sleep
 ALGO_NAME = 'digit_recognition_'+datetime.now().strftime('%Y%m%d%H%M%S')
 
 # pick any collection name you prefer; it will be created for you in https://algorithmia.com/data/hosted/
-COLLECTION_NAME = 'digit_recognition'
+COLLECTION_NAME = 'demo'
 
 # config your Algorithm details/settings as per https://docs.algorithmia.com/#create-an-algorithm
 ALGORITHM_DETAILS = {
